@@ -1,5 +1,8 @@
 # Portal de Bitacora
 
+![Meteor](https://img.shields.io/badge/Meteor-DE4F4F?style=flat-square&logo=meteor&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
 Aplicativo para portal de operadores en Consorcio Nacional de Seguros, se actualiza a **MeteorJS** desde **PHP - MYSQL - JS - BOOTSTRAP** como tiene caracter de experimental no se recomienda su uso en produccion hasta la version 1, la cual se estima que va a ser publicada en 2 meses despues de todas las pruebas practicas.
 
 version anterior [Portal Bitacora V1](https://github.com/kojimairiguchi/portalBitacora)
