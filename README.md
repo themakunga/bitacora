@@ -1,34 +1,39 @@
 # Portal de Bitacora
 
-
 Aplicativo para portal de operadores en Consorcio Nacional de Seguros, se actualiza a **MeteorJS** desde **PHP - MYSQL - JS - BOOTSTRAP** como tiene caracter de experimental no se recomienda su uso en produccion hasta la version 1, la cual se estima que va a ser publicada en 2 meses despues de todas las pruebas practicas.
 
 version anterior [Portal Bitacora V1](https://github.com/kojimairiguchi/portalBitacora)
+
 ## Tabla de Contenidos
 
-+ [Personal Involucrado](#personal-involucrado)
-+ [Equipo](#equipo)
-+ [Estructura](#estructura)
-  + [Interna](#interna)
-  + [Externa / Publica](#externa)
-+ [Packages](#packages)
-+ [Notas](#notas)
+- [Personal Involucrado](#personal-involucrado)
+- [Equipo](#equipo)
+- [Estructura](#estructura)
+  - [Interna](#interna)
+  - [Externa / Publica](#externa)
+- [Packages](#packages)
+- [Notas](#notas)
 
 ### Personal Involucrado
+
 como beta test van a estar operadores de Consorcio Nacional de Seguros, supervisados por Nicolas Martinez
 
-en el desarrollo van a estar [Nicolas Martinez](https://github.com/kojimairiguchi) ,  consultado por Salvador Maureira Briones
-
+en el desarrollo van a estar [Nicolas Martinez](https://github.com/kojimairiguchi) , consultado por Salvador Maureira Briones
 
 [volver](#tabla-de-contenidos)
+
 ### Equipo
+
 El equipo que se utiliza para esta es una maquina virtual con CentOS 6.5
 
-
 [volver](#tabla-de-contenidos)
+
 ### Estructura
+
 #### Interna
+
 la Estructura del sitio internamente va a ser así
+
 ```
 + client
   + templates
@@ -58,15 +63,16 @@ la Estructura del sitio internamente va a ser así
 
 mas información disponible en la ruta `lib/routes.js`
 
-
 [volver](#tabla-de-contenidos)
+
 #### Publica
 
-
 [volver](#tabla-de-contenidos)
+
 ### Packages
 
 los packages utlizados en esta version son:
+
 ```
 # Meteor packages used by this project, one per line.
 # Check this file (and the other files in this directory) into your repository.
@@ -112,11 +118,23 @@ aslagle:reactive-table
 
 se preeve priscender de mongoDB en versiones futuras
 
-
 [volver](#tabla-de-contenidos)
+
 ### notas
-- se van a hacen las pruebas usando los perfiles de usuario ``test``, ``test@test.cl``  y password ``1234``
+
+- se van a hacen las pruebas usando los perfiles de usuario `test`, `test@test.cl` y password `1234`
 - la base de datos va a estar pre-poblada y disponible en `sql/base.sql`
 
-
 [volver](#tabla-de-contenidos)
+
+## Repository reference
+
+| Path                             | Purpose               |
+| -------------------------------- | --------------------- |
+| [`.meteor/`](.meteor/)           | Project configuration |
+| [`bitacora.js`](bitacora.js)     | Project reference     |
+| [`bitacora.html`](bitacora.html) | Project reference     |
+| [`bitacora.css`](bitacora.css)   | Project reference     |
+
+The default branch is `master`. Use the tracked manifests and scripts above
+when preparing changes; keep local credentials and generated files out of commits.
